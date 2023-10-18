@@ -1,0 +1,22 @@
+body{
+    background-color: #EDF1D6;
+}
+
+.navfootBackground{
+    background-color: #40513B !important;
+}
+.navfootBackground p, a{
+    color: #EDF1D6 !important;
+}
+.nav-link:hover{
+    color: #609966 !important;
+}
+.active{
+    color: white !important;
+}
+.dropdown-menu{
+    background-color: #40513B !important;
+}
+.dropdown-item:hover{
+    background-color: #609966;
+}
