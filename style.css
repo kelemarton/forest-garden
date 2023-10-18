@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'MissKindergarten';
+    src: url(KGMissKindergarten.ttf);
+}
+
 body{
     background-color: #EDF1D6;
+    font-family: "MissKindergarten";
 }
 
 .navfootBackground{
@@ -19,4 +25,99 @@ body{
 }
 .dropdown-item:hover{
     background-color: #609966;
+}
+
+.catalogTitle{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #40513B;
+    text-shadow: 1px 1px #51443b;
+}
+.catalogInfo{
+    text-align: center;
+    color: #40513B;
+    width: 80%;
+    margin: 0 auto;
+}
+.catalogDiv{
+    margin: 20px;
+    animation: scaleCardDown 0.5s ease-out 0s 1 normal forwards;
+}
+.catalogDiv:hover{
+    animation: scaleCardUp 0.5s ease-out 0s 1 normal forwards;
+}
+@keyframes scaleCardUp {
+	0% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(1.1);
+	}
+}
+@keyframes scaleCardDown {
+	0% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+.catalogImgText{
+    color: #EDF1D6;
+    background-color: #51443ba1;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.emptyButton{
+    border: none;
+    background: none;
+    color: #EDF1D6;
+}
+.modalImg{
+    width: 50%;
+    float: right;
+    margin-left: 5px;
+    border-radius: 5%;
+}
+/*Fakatalógus Képek*/
+#platan{
+    background-image: url(képek/Platán.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#ujjasjuhar{
+    background-image: url(képek/Ujjas\ Juhar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#ciprus{
+    background-image: url(képek/Európai\ Ciprus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#boroka{
+    background-image: url(képek/Közönséges\ Boróka.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#pafrany{
+    background-image: url(képek/Páfrány.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#diofa{
+    background-image: url(képek/Diófa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
