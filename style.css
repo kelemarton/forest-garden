@@ -27,6 +27,7 @@ body{
     background-color: #609966;
 }
 
+
 .catalogTitle{
     text-align: center;
     margin-top: 30px;
@@ -120,4 +121,88 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+
+
+.title{
+    color: rgb(138, 105, 44);
+    width: fit-content;
+}
+.titlediv{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background: url(https://cdn.pixabay.com/photo/2017/04/09/09/56/avenue-2215317_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+.titleheader{
+    margin: auto;
+    margin-bottom: 5px;
+}
+.titletop{
+    font-size: 75px;
+}
+.Meowalogue{
+    background-color: #9DC08B;
+    height: 500px;
+}
+.Catpages{
+    float: inline-start;
+    width: 25%;
+    margin-left: 75px;
+    margin-right: 75px;
+    height: 400px;
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 5px solid #40513B;
+    border-top: 5px solid #40513B;
+}
+.pageA{
+    background-image: url(https://cdn.pixabay.com/photo/2014/12/22/00/07/tree-576847_640.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-color: #9DC08B;
+    background-blend-mode:color-burn;
+}
+.pageA:hover{
+    background-blend-mode: normal;
+}
+.pageB{
+    background-image: url(https://cdn.pixabay.com/photo/2021/01/22/09/09/flowers-5939515_640.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-color: #9DC08B;
+    background-blend-mode:color-burn;
+}
+.pageB:hover{
+    background-blend-mode:normal;
+}
+.pageC{
+    background-image: url(https://cdn.pixabay.com/photo/2014/12/21/23/57/mushroom-576463_640.png);
+    background-repeat: no-repeat;
+    background-color: #9DC08B;
+    background-blend-mode:color-burn;
+    background-size: contain;
+    background-position-x: center;
+}
+.pageC:hover{
+    background-blend-mode: normal;
+}
+.randomtext{
+    margin: 33px auto;
+    width: 66%;
+    text-align: center;
+    color: #40513B;
+}
+.Meowtext{
+    color: #EDF1D6;
+    height: 50px;
+    font-size: 40px;
+    background-color: #51443ba1;
+    margin-top: 175px;
 }
