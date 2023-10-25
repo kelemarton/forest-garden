@@ -27,6 +27,30 @@ body{
     background-color: #609966;
 }
 
+.imgHeader h1{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-variant: small-caps;
+    font-size: 50px;
+}
+.imgHeader h3{
+    text-align: center;
+    padding-bottom: 20px;
+    color: white ;
+    font-size: 30px;
+}
+.imgHeader div{
+    background-color: #51443ba1;
+    width: 500px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+#jegyHeader{
+    background-image: url(képek/imgheader_jegy.jpg);
+    background-position: center;
+}
+
 
 .catalogTitle{
     text-align: center;
@@ -43,10 +67,11 @@ body{
 }
 .catalogDiv{
     margin: 20px;
-    animation: scaleCardDown 0.5s ease-out 0s 1 normal forwards;
+    scale: 1;
+    transition: all 0.5s ease-in-out;
 }
 .catalogDiv:hover{
-    animation: scaleCardUp 0.5s ease-out 0s 1 normal forwards;
+    scale: 1.1;
 }
 @keyframes scaleCardUp {
 	0% {
@@ -87,37 +112,37 @@ body{
 }
 /*Fakatalógus Képek*/
 #platan{
-    background-image: url(képek/Platán.jpg);
+    background-image: url(képek/fak/Platán.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #ujjasjuhar{
-    background-image: url(képek/Ujjas\ Juhar.jpg);
+    background-image: url(képek/fak/Ujjas\ Juhar.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #ciprus{
-    background-image: url(képek/Európai\ Ciprus.jpg);
+    background-image: url(képek/fak/Európai\ Ciprus.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #boroka{
-    background-image: url(képek/Közönséges\ Boróka.jpg);
+    background-image: url(képek/fak/Közönséges\ Boróka.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #pafrany{
-    background-image: url(képek/Páfrány.jpg);
+    background-image: url(képek/fak/Páfrány.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 #diofa{
-    background-image: url(képek/Diófa.jpg);
+    background-image: url(képek/fak/Diófa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
