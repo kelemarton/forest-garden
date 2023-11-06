@@ -61,29 +61,47 @@ body{
 }
 .proframText{
     text-align: justify;
-    color: #40513B;;
+    color: #40513B;
 }
-.programImgLeft{
-    width: 500px;
+.programImg{
     border-radius: 30px;
     border-color: #51443ba1;
     border-width: 10px;
     border-style: solid;
-    float: right;
-    margin-left: 5px;
-}
-.programImgRight{
-    width: 500px;
-    border-radius: 30px;
-    border-color: #51443ba1;
-    border-width: 10px;
-    border-style: solid;
-    float: left;
-    margin-left: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 #erdeitanosveny{
     width: 80%;
     margin: 0 auto;
+}
+#uveghaztura{
+    width: 80%;
+    margin: 0 auto;
+}
+#uveghaztura h2{
+    text-align: end;
+}
+#szeddakosarad{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#arlista{
+    background-color: #9DC08B;
+}
+
+.linkDiv{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    background-color: #9DC08B;
+}
+.jegyLink{
+    color: #51443b !important;
 }
 
 
@@ -178,6 +196,84 @@ body{
 }
 #diofa{
     background-image: url(képek/fak/Diófa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+#penzgomba{
+    background-image: url(képek/gombák/penzgomba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#tejgomba{
+    background-image: url(képek/gombák/tejgomba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#gyurugomba{
+    background-image: url(képek/gombák/gyurugomba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#badargomba{
+    background-image: url(képek/gombák/badargomba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#korallgomba{
+    background-image: url(képek/gombák/korallgomba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#csészegomba{
+    background-image: url(képek/gombák/cseszegomba.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+#aldrovanda{
+    background-image: url(képek/virágok/aldrovanda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#görvélyfű{
+    background-image: url(képek/virágok/görvélyfű.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#boroszlán{
+    background-image: url(képek/virágok/boroszlán.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#madársisak{
+    background-image: url(képek/virágok/madarsisak.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#bujdosó{
+    background-image: url(képek/virágok/bujdoso.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#deres{
+    background-image: url(képek/virágok/deres.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
