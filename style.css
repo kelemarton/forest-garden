@@ -26,6 +26,13 @@ body{
 .dropdown-item:hover{
     background-color: #609966;
 }
+.navbar-toggler{
+    color: #EDF1D6;
+    border-color: #EDF1D6;
+}
+.navbar-toggler-icon{
+    background-image: url(képek/burger2-svgrepo-com.svg);
+}
 
 .imgHeader h1{
     text-align: center;
