@@ -344,6 +344,7 @@ body{
     margin-top: 50px;
     border-bottom: 5px solid #40513B;
     border-top: 5px solid #40513B;
+    width: 100%;
 }
 .pageA{
     background-image: url(https://cdn.pixabay.com/photo/2014/12/22/00/07/tree-576847_640.png);

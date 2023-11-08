@@ -1,5 +1,6 @@
 function shrekLoad(){
-    var randy = Math.floor(Math.random()*10);
+    var randy = Math.floor(Math.random()*20);
+    console.log(randy);
     if (randy == 2){
         document.getElementById('pageTitle').textContent = "Nem Shrekcurity";
         document.getElementById('pageDesc').textContent = "Csak megfenyegedtek ):";
