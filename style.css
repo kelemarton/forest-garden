@@ -26,6 +26,13 @@ body{
 .dropdown-item:hover{
     background-color: #609966;
 }
+.navbar-toggler{
+    color: #EDF1D6;
+    border-color: #EDF1D6;
+}
+.navbar-toggler-icon{
+    background-image: url(képek/burger2-svgrepo-com.svg);
+}
 
 .imgHeader h1{
     text-align: center;
@@ -344,6 +351,7 @@ body{
     margin-top: 50px;
     border-bottom: 5px solid #40513B;
     border-top: 5px solid #40513B;
+    width: 100%;
 }
 .pageA{
     background-image: url(https://cdn.pixabay.com/photo/2014/12/22/00/07/tree-576847_640.png);
